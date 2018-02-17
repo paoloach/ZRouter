@@ -30,7 +30,7 @@
   #include "aps_frag.h"
 #endif
 
-#include "TemperatureSensor.h"
+#include "ZRouter.h"
 
 /*********************************************************************
  * GLOBAL VARIABLES

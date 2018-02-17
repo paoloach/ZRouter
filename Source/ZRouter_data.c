@@ -14,7 +14,7 @@
 #include "AF.h"
 #include "zcl_ha.h"
 
-#include "TemperatureSensor.h"
+#include "ZRouter.h"
 
 
 #define DEVICE_VERSION     0

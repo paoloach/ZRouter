@@ -24,7 +24,7 @@
 #include "zcl_general.h"
 #include "zcl_ha.h"
 
-#include "TemperatureSensor.h"
+#include "ZRouter.h"
 
 #include "onboard.h"
 
