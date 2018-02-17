@@ -1126,9 +1126,6 @@
         <file>
           <name>$PROJ_DIR$\..\Source\clusters\ClusterPower.h</name>
         </file>
-        <file>
-          <name>$PROJ_DIR$\..\Source\clusters\ClusterTemperatureMeasurement.h</name>
-        </file>
       </group>
       <file>
         <name>$PROJ_DIR$\..\Source\clusters\ClusterBasic.c</name>
@@ -1138,9 +1135,6 @@
       </file>
       <file>
         <name>$PROJ_DIR$\..\Source\clusters\ClusterPower.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Source\clusters\ClusterTemperatureMeasurement.c</name>
       </file>
     </group>
     <file>
@@ -1276,63 +1270,6 @@
         <excluded>
           <configuration>Route2592</configuration>
         </excluded>
-        <group>
-          <name>Config</name>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_board_cfg.h</name>
-          </file>
-        </group>
-        <group>
-          <name>Drivers</name>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_adc.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_dma.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_flash.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_key.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_lcd.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_led.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_sleep.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_startup.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_timer.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_uart.c</name>
-          </file>
-        </group>
-        <group>
-          <name>Include</name>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_aes.h</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_ccm.h</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_dma.h</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_mcu.h</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530PMP4712\hal_types.h</name>
-          </file>
-        </group>
       </group>
     </group>
   </group>

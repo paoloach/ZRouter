@@ -21,29 +21,28 @@
 #define FLAGS              0
 
 
-const cId_t temperatureInClusterList[] ={
+const cId_t zRouterInClusterList[] ={
 	ZCL_CLUSTER_ID_GEN_BASIC,
 	ZCL_CLUSTER_ID_GEN_IDENTIFY,
-	ZCL_CLUSTER_ID_GEN_POWER_CFG,
-	ZCL_CLUSTER_ID_MS_TEMPERATURE_MEASUREMENT
+	ZCL_CLUSTER_ID_GEN_POWER_CFG
 };
 
-const cId_t temperatureOutClusterList[] ={
+const cId_t zRouterOutClusterList[] ={
 	ZCL_CLUSTER_ID_GEN_BASIC,
     ZCL_CLUSTER_ID_GEN_IDENTIFY
 };
 
 
 
-SimpleDescriptionFormat_t temperatureSimpleDesc = {
+SimpleDescriptionFormat_t zRouterSimpleDesc = {
 	ENDPOINT,                  			//  int Endpoint;
 	ZCL_HA_PROFILE_ID,                	//  uint16 AppProfId[2];
-	ZCL_HA_DEVICEID_TEMPERATURE_SENSOR,     	//  uint16 AppDeviceId[2];
+	ZCL_HA_DEVICEID_RANGE_EXTENDER,     	//  uint16 AppDeviceId[2];
 	DEVICE_VERSION,           			//  int   AppDevVer:4;
 	FLAGS,                    			//  int   AppFlags:4;
-	sizeof(temperatureInClusterList)/2,              //  byte  AppNumInClusters;
-	(cId_t *)temperatureInClusterList, 	//  byte *pAppInClusterList;
-	sizeof(temperatureOutClusterList)/2,           //  byte  AppNumInClusters;
-	(cId_t *)temperatureOutClusterList 	//  byte *pAppInClusterList;
+	sizeof(zRouterInClusterList)/2,              //  byte  AppNumInClusters;
+	(cId_t *)zRouterInClusterList, 	//  byte *pAppInClusterList;
+	sizeof(zRouterOutClusterList)/2,           //  byte  AppNumInClusters;
+	(cId_t *)zRouterOutClusterList 	//  byte *pAppInClusterList;
 };
 
