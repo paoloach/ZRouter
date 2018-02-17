@@ -84,7 +84,7 @@
       <file>$PROJ_DIR$\EndDeviceEB\List\mac_radio_defs.s51</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\OnBoard.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\hal_drivers.pbi</file>
-      <file>$PROJ_DIR$\EndDeviceEB\List\OSAL_TemperatureSensor.lst</file>
+      <file>$PROJ_DIR$\EndDeviceEB\List\OSAL_ZRouter.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\OSAL_Nv.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\MT.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\zmac.r51</file>
@@ -127,7 +127,7 @@
       <file>$PROJ_DIR$\EndDeviceEB\List\OSAL.s51</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ClusterOnOff.pbi</file>
       <file>$PROJ_DIR$\..\Source\Light_achdjian.h</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Obj\TemperatureSensor_data.pbi</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Obj\ZRouter_data.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\mac_autopend.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\mac_radio.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\zclWriteAttributeFn.s51</file>
@@ -142,7 +142,7 @@
       <file>$PROJ_DIR$\EndDeviceEB\List\zcl_samplelight.s51</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\mac_autopend.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\mac_sleep.pbi</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Exe\TemperatureSensor.a51</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Exe\ZRouter.a51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\ClusterIdentify.s51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\hal_startup.lst</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Components\osal\mcu\cc2530\OSAL_Nv.c</file>
@@ -154,10 +154,10 @@
       <file>$PROJ_DIR$\EndDeviceEB\Obj\mac_mcu.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\OSAL_PwrMgr.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\ZDiags.lst</file>
-      <file>$PROJ_DIR$\EndDeviceEB\List\TemperatureSensor.map</file>
+      <file>$PROJ_DIR$\EndDeviceEB\List\ZRouter.map</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ClusterBasic.r51</file>
       <file>$PROJ_DIR$\..\Source\zmain\ZMain.c</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Exe\TemperatureSensor.d51</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Exe\ZRouter.d51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\hal_sleep.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ClusterGroups.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ClusterLevel.pbi</file>
@@ -286,7 +286,7 @@
       <file>$PROJ_DIR$\EndDeviceEB\Obj\MT_AF.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\Light_achdjian.lst</file>
       <file>$PROJ_DIR$\..\..\..\..\..\Components\osal\mcu\cc2530\OSAL_Math.s51</file>
-      <file>$PROJ_DIR$\EndDeviceEB\List\TemperatureSensor.s51</file>
+      <file>$PROJ_DIR$\EndDeviceEB\List\ZRouter.s51</file>
       <file>$PROJ_DIR$\..\Source\zcl_samplelight_data.c</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\hal_flash.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\ClusterTemperatureMeasurement.lst</file>
@@ -304,7 +304,7 @@
       <file>$PROJ_DIR$\EndDeviceEB\Obj\zcl_ezmode.pbi</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterOnOff.c</file>
       <file>$PROJ_DIR$\..\Components\mac\high_level\mac_security.h</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Obj\OSAL_TemperatureSensor.r51</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Obj\OSAL_ZRouter.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\mac_backoff_timer.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\DebugTrace.r51</file>
       <file>$PROJ_DIR$\..\Components\mt\MT_UART.c</file>
@@ -336,7 +336,7 @@
       <file>$PROJ_DIR$\EndDeviceEB\List\stub_aps.s51</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\OSAL_Nv.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ZDObject.pbi</file>
-      <file>$PROJ_DIR$\EndDeviceEB\List\OSAL_TemperatureSensor.s51</file>
+      <file>$PROJ_DIR$\EndDeviceEB\List\OSAL_ZRouter.s51</file>
       <file>$PROJ_DIR$\..\Components\mt\MT_NWK.c</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\MT_UTIL.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\zclReadAttributeFn.s51</file>
@@ -388,7 +388,7 @@
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ClusterBasic.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\MT_NWK.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\Light_achdjian_data.s51</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Exe\TemperatureSensor.hex</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Exe\ZRouter.hex</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\hal_startup.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\zcl_samplelight_data.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\MT_UTIL.pbi</file>
@@ -472,7 +472,7 @@
       <file>$PROJ_DIR$\EndDeviceEB\Obj\hal_timer.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\zcl.lst</file>
       <file>$PROJ_DIR$\..\Components\mt\MT.h</file>
-      <file>$PROJ_DIR$\EndDeviceEB\List\TemperatureSensor_data.lst</file>
+      <file>$PROJ_DIR$\EndDeviceEB\List\ZRouter_data.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\hal_dma.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ClusterIdentify.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ClusterScenes.r51</file>
@@ -540,10 +540,10 @@
       <file>$PROJ_DIR$\..\Source\clusters\ClusterIdentify.c</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterPower.c</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterTemperatureMeasurement.c</file>
-      <file>$PROJ_DIR$\..\Source\OSAL_TemperatureSensor.c</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor.c</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor.h</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor_data.c</file>
+      <file>$PROJ_DIR$\..\Source\OSAL_ZRouter.c</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter.c</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter.h</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter_data.c</file>
       <file>$PROJ_DIR$\..\Components\hal\common\hal_assert.c</file>
       <file>$PROJ_DIR$\..\Components\hal\common\hal_drivers.c</file>
       <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
@@ -552,10 +552,10 @@
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ClusterTemperatureMeasurement.r51</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterScenes.c</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\hal_dma.s51</file>
-      <file>$PROJ_DIR$\EndDeviceEB\List\TemperatureSensor_data.s51</file>
+      <file>$PROJ_DIR$\EndDeviceEB\List\ZRouter_data.s51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\mac_rffrontend.s51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\mac_csp_tx.s51</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Obj\TemperatureSensor_data.r51</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Obj\ZRouter_data.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\hal_uart.s51</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\ClusterLevel.r51</file>
       <file>$PROJ_DIR$\..\Components\mt\MT_TASK.c</file>
@@ -584,7 +584,7 @@
       <file>$PROJ_DIR$\EndDeviceEB\Obj\stub_aps.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\OSAL.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\MT_NWK.s51</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Obj\TemperatureSensor.r51</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Obj\ZRouter.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\hal_uart.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\Light_achdjian_data.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\zcl_ezmode.r51</file>
@@ -595,9 +595,9 @@
       <file>$PROJ_DIR$\EndDeviceEB\List\MT_SYS.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\mac_tx.pbi</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\OSAL_PwrMgr.s51</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Obj\OSAL_TemperatureSensor.pbi</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Obj\TemperatureSensor.pbi</file>
-      <file>$PROJ_DIR$\EndDeviceEB\List\TemperatureSensor.lst</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Obj\OSAL_ZRouter.pbi</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Obj\ZRouter.pbi</file>
+      <file>$PROJ_DIR$\EndDeviceEB\List\ZRouter.lst</file>
       <file>$PROJ_DIR$\EndDeviceEB\Obj\MT_NWK.r51</file>
       <file>$PROJ_DIR$\EndDeviceEB\List\saddr.lst</file>
     </outputs>
@@ -1004,7 +1004,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\EndDeviceEB\Exe\TemperatureSensor.a51</name>
+      <name>$PROJ_DIR$\EndDeviceEB\Exe\ZRouter.a51</name>
       <inputs>
         <tool>
           <name>XLINK</name>
@@ -1072,7 +1072,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\EndDeviceEB\Exe\TemperatureSensor.d51</name>
+      <name>$PROJ_DIR$\EndDeviceEB\Exe\ZRouter.d51</name>
       <outputs>
         <tool>
           <name>XLINK</name>
@@ -1760,7 +1760,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\EndDeviceEB\Exe\TemperatureSensor.hex</name>
+      <name>$PROJ_DIR$\EndDeviceEB\Exe\ZRouter.hex</name>
       <inputs>
         <tool>
           <name>XLINK</name>
@@ -2500,7 +2500,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\OSAL_TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\OSAL_ZRouter.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -2523,7 +2523,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -2546,7 +2546,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor_data.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter_data.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -2849,13 +2849,13 @@
       <file>$PROJ_DIR$\EndDevicePA\Obj\mac_radio_defs.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\AF.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\OSAL_PwrMgr.lst</file>
-      <file>$PROJ_DIR$\EndDevicePA\List\TemperatureSensor.s51</file>
+      <file>$PROJ_DIR$\EndDevicePA\List\ZRouter.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\OSAL_PwrMgr.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\ZDConfig.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\OSAL_Timers2.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\ZDApp.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\OSAL_Timers2.lst</file>
-      <file>$PROJ_DIR$\EndDevicePA\List\TemperatureSensor.lst</file>
+      <file>$PROJ_DIR$\EndDevicePA\List\ZRouter.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\ZDConfig.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\zmac.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\ZDProfile.r51</file>
@@ -2916,7 +2916,7 @@
       <file>$PROJ_DIR$\EndDevicePA\List\ZDApp.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\ZDConfig.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\mac_rx_onoff.lst</file>
-      <file>$PROJ_DIR$\EndDevicePA\List\TemperatureSensor.map</file>
+      <file>$PROJ_DIR$\EndDevicePA\List\ZRouter.map</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\ZDNwkMgr.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\ZDObject.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\AF.r51</file>
@@ -2992,7 +2992,7 @@
       <file>$PROJ_DIR$\EndDevicePA\Obj\ZDObject.pbi</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\ZDSecMgr.pbi</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\BindingTable.r51</file>
-      <file>$PROJ_DIR$\EndDevicePA\Exe\TemperatureSensor.d51</file>
+      <file>$PROJ_DIR$\EndDevicePA\Exe\ZRouter.d51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\ZMain.pbi</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\mac_cfg.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\mac_pib.r51</file>
@@ -3009,7 +3009,7 @@
       <file>$PROJ_DIR$\EndDevicePA\Obj\hal_uart.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\hal_assert.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\ClusterBasic.r51</file>
-      <file>$PROJ_DIR$\EndDevicePA\Obj\TemperatureSensor_data.r51</file>
+      <file>$PROJ_DIR$\EndDevicePA\Obj\ZRouter_data.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\hal_flash.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\mac_sleep.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\mac_rx.lst</file>
@@ -3101,8 +3101,8 @@
       <file>$PROJ_DIR$\EndDevicePA\Obj\zcl_general.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\hal_key.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\hal_flash.r51</file>
-      <file>$PROJ_DIR$\EndDevicePA\Obj\TemperatureSensor.r51</file>
-      <file>$PROJ_DIR$\EndDevicePA\Obj\OSAL_TemperatureSensor.r51</file>
+      <file>$PROJ_DIR$\EndDevicePA\Obj\ZRouter.r51</file>
+      <file>$PROJ_DIR$\EndDevicePA\Obj\OSAL_ZRouter.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\ClusterPower.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\hal_dma.r51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\zcl_ha.s51</file>
@@ -3130,20 +3130,20 @@
       <file>$PROJ_DIR$\EndDevicePA\List\mac_backoff_timer.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\mac_autopend.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\mac_cfg.lst</file>
-      <file>$PROJ_DIR$\EndDevicePA\List\OSAL_TemperatureSensor.s51</file>
+      <file>$PROJ_DIR$\EndDevicePA\List\OSAL_ZRouter.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\BindingTable.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\hal_drivers.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\ClusterIdentify.lst</file>
-      <file>$PROJ_DIR$\EndDevicePA\List\TemperatureSensor_data.s51</file>
+      <file>$PROJ_DIR$\EndDevicePA\List\ZRouter_data.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\OSAL_Memory.lst</file>
-      <file>$PROJ_DIR$\EndDevicePA\List\TemperatureSensor_data.lst</file>
+      <file>$PROJ_DIR$\EndDevicePA\List\ZRouter_data.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\OSAL_Nv.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\ClusterBasic.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\ClusterPower.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\OSAL.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\ClusterPower.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\OnBoard.s51</file>
-      <file>$PROJ_DIR$\EndDevicePA\List\OSAL_TemperatureSensor.lst</file>
+      <file>$PROJ_DIR$\EndDevicePA\List\OSAL_ZRouter.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\BindingTable.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\ClusterBasic.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\ClusterIdentify.s51</file>
@@ -3168,9 +3168,9 @@
       <file>$PROJ_DIR$\EndDevicePA\List\hal_dma.lst</file>
       <file>$PROJ_DIR$\EndDevicePA\List\hal_key.s51</file>
       <file>$PROJ_DIR$\EndDevicePA\List\hal_dma.s51</file>
-      <file>$PROJ_DIR$\EndDevicePA\Obj\OSAL_TemperatureSensor.pbi</file>
-      <file>$PROJ_DIR$\EndDevicePA\Obj\TemperatureSensor.pbi</file>
-      <file>$PROJ_DIR$\EndDevicePA\Obj\TemperatureSensor_data.pbi</file>
+      <file>$PROJ_DIR$\EndDevicePA\Obj\OSAL_ZRouter.pbi</file>
+      <file>$PROJ_DIR$\EndDevicePA\Obj\ZRouter.pbi</file>
+      <file>$PROJ_DIR$\EndDevicePA\Obj\ZRouter_data.pbi</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\hal_assert.pbi</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\hal_drivers.pbi</file>
       <file>$PROJ_DIR$\EndDevicePA\Obj\hal_adc.pbi</file>
@@ -3248,10 +3248,10 @@
       <file>$PROJ_DIR$\..\Source\clusters\ClusterIdentify.c</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterPower.c</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterTemperatureMeasurement.c</file>
-      <file>$PROJ_DIR$\..\Source\OSAL_TemperatureSensor.c</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor.c</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor.h</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor_data.c</file>
+      <file>$PROJ_DIR$\..\Source\OSAL_ZRouter.c</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter.c</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter.h</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter_data.c</file>
       <file>$PROJ_DIR$\..\Components\hal\common\hal_assert.c</file>
       <file>$PROJ_DIR$\..\Components\hal\common\hal_drivers.c</file>
       <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
@@ -3546,7 +3546,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\EndDevicePA\Exe\TemperatureSensor.d51</name>
+      <name>$PROJ_DIR$\EndDevicePA\Exe\ZRouter.d51</name>
       <outputs>
         <tool>
           <name>XLINK</name>
@@ -4656,7 +4656,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\OSAL_TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\OSAL_ZRouter.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -4679,7 +4679,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -4702,7 +4702,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor_data.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter_data.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -4859,7 +4859,7 @@
       <file>$PROJ_DIR$\..\Components\stack\zcl\zcl_ss.h</file>
       <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
       <file>$PROJ_DIR$\..\Source\zmain\ZMain.c</file>
-      <file>$PROJ_DIR$\EndDeviceEB\Exe\TemperatureSensor.d51</file>
+      <file>$PROJ_DIR$\EndDeviceEB\Exe\ZRouter.d51</file>
       <file>$PROJ_DIR$\..\Components\stack\nwk\aps_frag.h</file>
       <file>$PROJ_DIR$\..\Components\stack\nwk\aps_groups.h</file>
       <file>$PROJ_DIR$\..\Components\stack\nwk\aps_util.h</file>
@@ -4930,17 +4930,17 @@
       <file>$PROJ_DIR$\Route2592\Obj\zcl_ezmode.pbi</file>
       <file>$PROJ_DIR$\Route2592\Obj\zcl_general.pbi</file>
       <file>$PROJ_DIR$\Route2592\List\OSAL_Timers2.lst</file>
-      <file>$PROJ_DIR$\Route2592\List\TemperatureSensor_data.lst</file>
+      <file>$PROJ_DIR$\Route2592\List\ZRouter_data.lst</file>
       <file>$PROJ_DIR$\Route2592\List\OSAL.lst</file>
       <file>$PROJ_DIR$\Route2592\List\ClusterTemperatureMeasurement.lst</file>
       <file>$PROJ_DIR$\Route2592\List\AF.lst</file>
       <file>$PROJ_DIR$\Route2592\List\ZDNwkMgr.s51</file>
       <file>$PROJ_DIR$\Route2592\List\ZDConfig.s51</file>
-      <file>$PROJ_DIR$\Route2592\List\OSAL_TemperatureSensor.s51</file>
+      <file>$PROJ_DIR$\Route2592\List\OSAL_ZRouter.s51</file>
       <file>$PROJ_DIR$\Route2592\List\hal_lcd.lst</file>
       <file>$PROJ_DIR$\Route2592\List\ClusterPower.lst</file>
       <file>$PROJ_DIR$\Route2592\List\ClusterIdentify.lst</file>
-      <file>$PROJ_DIR$\Route2592\List\TemperatureSensor_data.s51</file>
+      <file>$PROJ_DIR$\Route2592\List\ZRouter_data.s51</file>
       <file>$PROJ_DIR$\Route2592\List\OSAL_Nv.lst</file>
       <file>$PROJ_DIR$\Route2592\List\ClusterIdentify.s51</file>
       <file>$PROJ_DIR$\Route2592\List\ZDObject.lst</file>
@@ -4983,7 +4983,7 @@
       <file>$PROJ_DIR$\Route2592\Obj\zmac_cb.pbi</file>
       <file>$PROJ_DIR$\Route2592\Obj\OnBoard.pbi</file>
       <file>$PROJ_DIR$\Route2592\Obj\ZMain.pbi</file>
-      <file>$PROJ_DIR$\Route2592\Exe\TemperatureSensor.d51</file>
+      <file>$PROJ_DIR$\Route2592\Exe\ZRouter.d51</file>
       <file>$PROJ_DIR$\Route2592\List\AF.s51</file>
       <file>$PROJ_DIR$\Route2592\List\ZGlobals.lst</file>
       <file>$PROJ_DIR$\Route2592\List\ZDConfig.lst</file>
@@ -4996,7 +4996,7 @@
       <file>$PROJ_DIR$\Route2592\Obj\ZDObject.r51</file>
       <file>$PROJ_DIR$\Route2592\List\ClusterTemperatureMeasurement.s51</file>
       <file>$PROJ_DIR$\Route2592\Obj\zmac.r51</file>
-      <file>$PROJ_DIR$\Route2592\Obj\TemperatureSensor.pbd</file>
+      <file>$PROJ_DIR$\Route2592\Obj\ZRouter.pbd</file>
       <file>$PROJ_DIR$\Route2592\Obj\ZDProfile.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\ZDSecMgr.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\zmac_cb.r51</file>
@@ -5007,9 +5007,9 @@
       <file>$PROJ_DIR$\Route2592\Obj\ClusterPower.pbi</file>
       <file>$PROJ_DIR$\Route2592\Obj\ZMain.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\ClusterIdentify.pbi</file>
-      <file>$PROJ_DIR$\Route2592\Obj\OSAL_TemperatureSensor.pbi</file>
-      <file>$PROJ_DIR$\Route2592\Obj\TemperatureSensor.pbi</file>
-      <file>$PROJ_DIR$\Route2592\Obj\TemperatureSensor_data.pbi</file>
+      <file>$PROJ_DIR$\Route2592\Obj\OSAL_ZRouter.pbi</file>
+      <file>$PROJ_DIR$\Route2592\Obj\ZRouter.pbi</file>
+      <file>$PROJ_DIR$\Route2592\Obj\ZRouter_data.pbi</file>
       <file>$PROJ_DIR$\Route2592\Obj\hal_assert.pbi</file>
       <file>$PROJ_DIR$\Route2592\Obj\hal_drivers.pbi</file>
       <file>$PROJ_DIR$\Route2592\Obj\hal_adc.pbi</file>
@@ -5071,7 +5071,7 @@
       <file>$PROJ_DIR$\Route2592\List\zcl.lst</file>
       <file>$PROJ_DIR$\Route2592\List\zclReadAttributeFn.s51</file>
       <file>$PROJ_DIR$\Route2592\List\zclReadAttributeFn.lst</file>
-      <file>$PROJ_DIR$\Route2592\List\TemperatureSensor.map</file>
+      <file>$PROJ_DIR$\Route2592\List\ZRouter.map</file>
       <file>$PROJ_DIR$\Route2592\List\zclWriteAttributeFn.lst</file>
       <file>$PROJ_DIR$\Route2592\List\zcl_diagnostic.lst</file>
       <file>$PROJ_DIR$\Route2592\List\zcl_ezmode.lst</file>
@@ -5099,11 +5099,11 @@
       <file>$PROJ_DIR$\Route2592\Obj\ClusterBasic.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\hal_assert.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\hal_key.r51</file>
-      <file>$PROJ_DIR$\Route2592\Obj\TemperatureSensor_data.r51</file>
+      <file>$PROJ_DIR$\Route2592\Obj\ZRouter_data.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\mac_cfg.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\hal_flash.r51</file>
-      <file>$PROJ_DIR$\Route2592\Obj\TemperatureSensor.r51</file>
-      <file>$PROJ_DIR$\Route2592\Obj\OSAL_TemperatureSensor.r51</file>
+      <file>$PROJ_DIR$\Route2592\Obj\ZRouter.r51</file>
+      <file>$PROJ_DIR$\Route2592\Obj\OSAL_ZRouter.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\ClusterPower.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\hal_dma.r51</file>
       <file>$PROJ_DIR$\Route2592\Obj\ClusterTemperatureMeasurement.r51</file>
@@ -5160,14 +5160,14 @@
       <file>$PROJ_DIR$\Route2592\List\OSAL_Clock.s51</file>
       <file>$PROJ_DIR$\Route2592\List\OSAL_Memory.s51</file>
       <file>$PROJ_DIR$\Route2592\List\hal_flash.s51</file>
-      <file>$PROJ_DIR$\Route2592\List\TemperatureSensor.lst</file>
+      <file>$PROJ_DIR$\Route2592\List\ZRouter.lst</file>
       <file>$PROJ_DIR$\Route2592\List\OSAL_PwrMgr.s51</file>
       <file>$PROJ_DIR$\Route2592\List\ZDApp.lst</file>
-      <file>$PROJ_DIR$\Route2592\List\OSAL_TemperatureSensor.lst</file>
+      <file>$PROJ_DIR$\Route2592\List\OSAL_ZRouter.lst</file>
       <file>$PROJ_DIR$\Route2592\List\mac_cfg.s51</file>
       <file>$PROJ_DIR$\Route2592\List\OSAL_Timers2.s51</file>
       <file>$PROJ_DIR$\Route2592\List\hal_timer.lst</file>
-      <file>$PROJ_DIR$\Route2592\List\TemperatureSensor.s51</file>
+      <file>$PROJ_DIR$\Route2592\List\ZRouter.s51</file>
       <file>$PROJ_DIR$\Route2592\List\OnBoard.lst</file>
       <file>$PROJ_DIR$\Route2592\List\OnBoard.s51</file>
       <file>$PROJ_DIR$\Route2592\List\ZDNwkMgr.lst</file>
@@ -5261,10 +5261,10 @@
       <file>$PROJ_DIR$\..\Source\clusters\ClusterIdentify.c</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterPower.c</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterTemperatureMeasurement.c</file>
-      <file>$PROJ_DIR$\..\Source\OSAL_TemperatureSensor.c</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor.c</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor.h</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor_data.c</file>
+      <file>$PROJ_DIR$\..\Source\OSAL_ZRouter.c</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter.c</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter.h</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter_data.c</file>
       <file>$PROJ_DIR$\..\Components\hal\common\hal_assert.c</file>
       <file>$PROJ_DIR$\..\Components\hal\common\hal_drivers.c</file>
       <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
@@ -5784,7 +5784,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Route2592\Exe\TemperatureSensor.d51</name>
+      <name>$PROJ_DIR$\Route2592\Exe\ZRouter.d51</name>
       <outputs>
         <tool>
           <name>XLINK</name>
@@ -6668,7 +6668,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\OSAL_TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\OSAL_ZRouter.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -6691,7 +6691,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -6714,7 +6714,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor_data.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter_data.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -6945,7 +6945,7 @@
       <file>$PROJ_DIR$\RouterEB\Obj\hal_lcd.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ClusterTemperatureMeasurement.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ZDProfile.r51</file>
-      <file>$PROJ_DIR$\RouterEB\Obj\TemperatureSensor_data.r51</file>
+      <file>$PROJ_DIR$\RouterEB\Obj\ZRouter_data.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ZDObject.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\OSAL.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\OSAL_Timers2.pbi</file>
@@ -6970,14 +6970,14 @@
       <file>$PROJ_DIR$\RouterEB\List\mac_mcu.lst</file>
       <file>$PROJ_DIR$\RouterEB\List\ZDNwkMgr.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\hal_startup.lst</file>
-      <file>$PROJ_DIR$\RouterEB\List\OSAL_TemperatureSensor.lst</file>
+      <file>$PROJ_DIR$\RouterEB\List\OSAL_ZRouter.lst</file>
       <file>$PROJ_DIR$\RouterEB\List\OSAL_PwrMgr.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\ZDApp.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\OSAL_Timers.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\hal_lcd.lst</file>
       <file>$PROJ_DIR$\RouterEB\List\OSAL_Timers2.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\ZGlobals.lst</file>
-      <file>$PROJ_DIR$\RouterEB\List\TemperatureSensor.s51</file>
+      <file>$PROJ_DIR$\RouterEB\List\ZRouter.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\OnBoard.lst</file>
       <file>$PROJ_DIR$\RouterEB\List\OnBoard.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\ZDNwkMgr.lst</file>
@@ -7027,13 +7027,13 @@
       <file>$PROJ_DIR$\..\Components\hal\target\CC2530EB\hal_led.c</file>
       <file>$PROJ_DIR$\..\Components\hal\target\CC2530EB\hal_sleep.c</file>
       <file>$PROJ_DIR$\..\Libraries\Router-Pro.lib</file>
-      <file>$PROJ_DIR$\RouterEB\Obj\TemperatureSensor.pbi</file>
+      <file>$PROJ_DIR$\RouterEB\Obj\ZRouter.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\hal_dma.pbi</file>
-      <file>$PROJ_DIR$\RouterEB\Obj\TemperatureSensor_data.pbi</file>
+      <file>$PROJ_DIR$\RouterEB\Obj\ZRouter_data.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ClusterBasic.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ZMain.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ZDObject.pbi</file>
-      <file>$PROJ_DIR$\RouterEB\Exe\TemperatureSensor.d51</file>
+      <file>$PROJ_DIR$\RouterEB\Exe\ZRouter.d51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\zmac_cb.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\OnBoard.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\zclWriteAttributeFn.pbi</file>
@@ -7051,8 +7051,8 @@
       <file>$PROJ_DIR$\RouterEB\Obj\zmac.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ZDProfile.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ZDSecMgr.pbi</file>
-      <file>$PROJ_DIR$\RouterEB\List\TemperatureSensor.map</file>
-      <file>$PROJ_DIR$\RouterEB\List\TemperatureSensor_data.s51</file>
+      <file>$PROJ_DIR$\RouterEB\List\ZRouter.map</file>
+      <file>$PROJ_DIR$\RouterEB\List\ZRouter_data.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\ZDSecMgr.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\OSAL_PwrMgr.lst</file>
       <file>$PROJ_DIR$\RouterEB\List\AF.lst</file>
@@ -7065,9 +7065,9 @@
       <file>$PROJ_DIR$\RouterEB\List\OSAL.lst</file>
       <file>$PROJ_DIR$\RouterEB\List\OSAL_Timers.lst</file>
       <file>$PROJ_DIR$\RouterEB\List\ZDConfig.lst</file>
-      <file>$PROJ_DIR$\RouterEB\List\TemperatureSensor.lst</file>
-      <file>$PROJ_DIR$\RouterEB\List\TemperatureSensor_data.lst</file>
-      <file>$PROJ_DIR$\RouterEB\List\OSAL_TemperatureSensor.s51</file>
+      <file>$PROJ_DIR$\RouterEB\List\ZRouter.lst</file>
+      <file>$PROJ_DIR$\RouterEB\List\ZRouter_data.lst</file>
+      <file>$PROJ_DIR$\RouterEB\List\OSAL_ZRouter.s51</file>
       <file>$PROJ_DIR$\RouterEB\List\ClusterPower.lst</file>
       <file>$PROJ_DIR$\RouterEB\List\mac_low_level.lst</file>
       <file>$PROJ_DIR$\RouterEB\List\ClusterIdentify.lst</file>
@@ -7134,7 +7134,7 @@
       <file>$PROJ_DIR$\RouterEB\Obj\mac_rffrontend.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\mac_radio_defs.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\mac_rx.r51</file>
-      <file>$PROJ_DIR$\RouterEB\Obj\TemperatureSensor.r51</file>
+      <file>$PROJ_DIR$\RouterEB\Obj\ZRouter.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\OSAL_PwrMgr.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\OSAL_Nv.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\OSAL_Memory.r51</file>
@@ -7200,7 +7200,7 @@
       <file>$PROJ_DIR$\RouterEB\Obj\zcl_general.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\zcl.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\hal_startup.pbi</file>
-      <file>$PROJ_DIR$\RouterEB\Obj\OSAL_TemperatureSensor.r51</file>
+      <file>$PROJ_DIR$\RouterEB\Obj\OSAL_ZRouter.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\chipcon_cstartup.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\zcl_diagnostic.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\zcl_ezmode.r51</file>
@@ -7211,7 +7211,7 @@
       <file>$PROJ_DIR$\RouterEB\Obj\hal_dma.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\zclWriteAttributeFn.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\hal_lcd.r51</file>
-      <file>$PROJ_DIR$\RouterEB\Obj\OSAL_TemperatureSensor.pbi</file>
+      <file>$PROJ_DIR$\RouterEB\Obj\OSAL_ZRouter.pbi</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ZMain.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\mac_mcu.r51</file>
       <file>$PROJ_DIR$\RouterEB\Obj\ClusterIdentify.pbi</file>
@@ -7269,10 +7269,10 @@
       <file>$PROJ_DIR$\..\Source\clusters\ClusterIdentify.c</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterPower.c</file>
       <file>$PROJ_DIR$\..\Source\clusters\ClusterTemperatureMeasurement.c</file>
-      <file>$PROJ_DIR$\..\Source\OSAL_TemperatureSensor.c</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor.c</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor.h</file>
-      <file>$PROJ_DIR$\..\Source\TemperatureSensor_data.c</file>
+      <file>$PROJ_DIR$\..\Source\OSAL_ZRouter.c</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter.c</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter.h</file>
+      <file>$PROJ_DIR$\..\Source\ZRouter_data.c</file>
       <file>$PROJ_DIR$\..\Components\hal\common\hal_assert.c</file>
       <file>$PROJ_DIR$\..\Components\hal\common\hal_drivers.c</file>
       <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
@@ -8215,7 +8215,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\RouterEB\Exe\TemperatureSensor.d51</name>
+      <name>$PROJ_DIR$\RouterEB\Exe\ZRouter.d51</name>
       <outputs>
         <tool>
           <name>XLINK</name>
@@ -8699,7 +8699,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\OSAL_TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\OSAL_ZRouter.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -8722,7 +8722,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>
@@ -8745,7 +8745,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor_data.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter_data.c</name>
       <outputs>
         <tool>
           <name>ICC8051</name>

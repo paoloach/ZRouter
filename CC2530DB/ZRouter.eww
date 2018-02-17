@@ -2,13 +2,13 @@
 
 <workspace>
   <project>
-    <path>$WS_DIR$\TemperatureSensor.ewp</path>
+    <path>$WS_DIR$\ZRouter.ewp</path>
   </project>
   <batchBuild>
     <batchDefinition>
       <name>ALL</name>
        <member>
-        <project>TemperatureSensor</project>
+        <project>ZRouter</project>
         <configuration>EndDeviceEB</configuration>
       </member>
     </batchDefinition>

@@ -764,7 +764,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>TemperatureSensor.d51</state>
+          <state>ZRouter.d51</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -962,7 +962,7 @@
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>TemperatureSensor.sim</state>
+          <state>ZRouter.sim</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -1869,7 +1869,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>TemperatureSensor.d51</state>
+          <state>ZRouter.d51</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -2067,7 +2067,7 @@
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>TemperatureSensor.sim</state>
+          <state>ZRouter.sim</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -2974,7 +2974,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>TemperatureSensor.d51</state>
+          <state>ZRouter.d51</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -3172,7 +3172,7 @@
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>TemperatureSensor.sim</state>
+          <state>ZRouter.sim</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -4080,7 +4080,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>TemperatureSensor.d51</state>
+          <state>ZRouter.d51</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -4278,7 +4278,7 @@
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>TemperatureSensor.sim</state>
+          <state>ZRouter.sim</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -4458,16 +4458,16 @@
       </file>
     </group>
     <file>
-      <name>$PROJ_DIR$\..\Source\OSAL_TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\OSAL_ZRouter.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor.h</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Source\TemperatureSensor_data.c</name>
+      <name>$PROJ_DIR$\..\Source\ZRouter_data.c</name>
     </file>
   </group>
   <group>
@@ -5680,7 +5680,7 @@
     </file>
   </group>
   <file>
-    <name>$PROJ_DIR$\EndDeviceEB\Exe\TemperatureSensor.d51</name>
+    <name>$PROJ_DIR$\EndDeviceEB\Exe\ZRouter.d51</name>
   </file>
 </project>
 
